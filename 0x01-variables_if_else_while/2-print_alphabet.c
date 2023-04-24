@@ -9,12 +9,14 @@
  */
 int main(void)
 {
-	char i;
+        char low;
 
-	for (i = 'a'; i <= 'z'; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
-	return (0);
+        for (low = 'a'; low <= 'z'; low++)
+        {
+                putchar(low);
+        }
+	
+        putchar('\n');
+
+        return (0);
 }	

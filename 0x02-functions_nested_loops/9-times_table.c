@@ -15,17 +15,17 @@ void times_table(void)
 
 		if (j == 0)
             	{
-                _putchar("%d", result);
-            }
+		       	_putchar("%d", result);
+		}
 		else if (result < 10)
-            {
-                _putchar("   %d", result);
-            }
-            else if (result >= 10)
-            {
-                _putchar("  %d", result);
-            }
-        }
+		{
+			_putchar("   %d", result);
+		}
+		else if (result >= 10)
+		{
+			_putchar("  %d", result);
+		}
+	}
        _putchar("\n");
     }
 }
